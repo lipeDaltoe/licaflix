@@ -1,0 +1,22 @@
+git config --global user.name lipeDaltoe
+git config --global user.email felipedaltoe9@gmail.com
+
+dotnet new mvc -o LicaFlix
+   
+dotnet new sln --name LicaFlix
+ 
+dotnet sln add LicaFlix\LicaFlix.csproj
+
+Instalar pacotes no projeto:
+    1 - Usar o site nuget.org e o dotnet CLI
+        dotnet add package Microsoft.EntityFrameworkCore --version 8.0.4
+        dotnet add package Microsoft.EntityFrameworkCore.Design --version 8.0.4
+        dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.4
+        dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.2
+
+    2 - Usar extensões próprias do CODE como Nuget Gallery
+        Shift + Ctrl + P
+        Digitar Nuget
+
+dotnet run
+dotnet watch run
