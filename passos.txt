@@ -17,6 +17,3 @@ Instalar pacotes no projeto:
     2 - Usar extensões próprias do CODE como Nuget Gallery
         Shift + Ctrl + P
         Digitar Nuget
-
-dotnet run
-dotnet watch run
